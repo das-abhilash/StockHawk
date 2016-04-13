@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".MyStocksActivity">
+    <item
+        android:id="@+id/action_change_units"
+        android:icon="@drawable/ic_attach_money_white_24dp"
+        android:orderInCategory="99"
+        android:title="@string/action_change_units"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/delete"
+        android:orderInCategory="98"
+        android:title="@string/delete"
+        app:showAsAction="ifRoom"/>
+</menu>

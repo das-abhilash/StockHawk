@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data >
+        <import type="android.view.View"/>
+        <variable
+            name="dataset"
+            type="java.util.List&lt;java.lang.String&gt;"
+            />
+    </data>

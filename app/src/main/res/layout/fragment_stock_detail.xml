@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tool="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.sam_chordas.android.stockhawk.ui.StockDetailActivityFragment">
+<!--
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:src="@drawable/stock"/>-->
+
+    <com.jjoe64.graphview.GraphView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:title="@string/GraphTitle"
+        android:id="@+id/graph"
+
+        />
+    <!--<com.jjoe64.graphview.GraphView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:title="@string/GraphTitle"
+        android:id="@+id/graph2"
+        android:layout_below="@+id/test"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />-->
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/test"
+        android:textSize="25sp"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/graph"
+        tools:text = "GOOG"
+        android:paddingTop="20dp"/>
+    <!--<com.jjoe64.graphview.GraphView
+        android:id="@+id/graph"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />-->
+
+</RelativeLayout>
